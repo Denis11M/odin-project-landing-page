@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
 
 * {
   box-sizing: border-box;
@@ -16,7 +16,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px 200px 0 200px;
-  
 }
 
 .nav {
@@ -30,7 +29,7 @@ body {
 
 li a {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #e5e7eb;
   text-decoration: none;
   font-weight: 700;
 }
@@ -43,8 +42,8 @@ li a {
 }
 
 .subtextAndButton {
-  padding: 0 200px 100px 200px;    
-  color: #E5E7EB;
+  padding: 0 200px 100px 200px;
+  color: #e5e7eb;
   font-size: 18px;
 }
 
@@ -52,23 +51,23 @@ li a {
   margin-top: 20px;
   width: 130px;
   height: 40px;
-  background-color: #3882F6;
-  color: #E5E7EB;
+  background-color: #3882f6;
+  color: #e5e7eb;
   border: none;
   border-radius: 4px;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .signUp:hover {
   background-color: #4067a4;
-
 }
 
 .description {
   margin-top: 30px;
   font-size: 48px;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
 .container3 {
@@ -85,7 +84,7 @@ li a {
   margin-bottom: 20px;
 }
 
-.infoHeader{
+.infoHeader {
   text-align: center;
 }
 
@@ -100,32 +99,25 @@ h1 {
   padding-bottom: 30px;
   font-size: 36px;
   font-weight: bolder;
-  color: #1F2937;
+  color: #1f2937;
 }
 
 .box {
   flex: 1;
-  border: #3882F6 solid;
-  border-color: #3882F6;
+  border: #3882f6 solid;
+  border-color: #3882f6;
   background-color: #fff;
   border-radius: 10px;
   margin: 20px 10px;
   height: 150px;
   width: min-content;
-  
 }
-
-/* .test {
- display: flex;
- flex-direction: column;
-} */
 
 .container4 {
   text-align: center;
   padding: 200px;
   font-size: 36px;
   font-style: italic;
-  
 }
 
 .signature {
@@ -136,37 +128,90 @@ h1 {
   font-weight: 700;
 }
 
-          /* <p>Copyright © Denis Michalski 2024</p>  */
-ul a:hover {
-    color: #4067a4;
+.container5 {
+  background-color: #3882f6;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 1000px;
+  height: 150px;
+  justify-content: flex-start;
+  align-items: self-start;
+  margin-left: 429px;
+  margin-top: 150px;
+  border-radius: 8px;
 }
 
-
-.navbar {
-  background-color: #1F2937;
-
-}
- .header {
-    
-    background-color: #1F2937;
-    max-height: 850px;
- }
-
- .sectionOne {
-  background-color: #fff;
-  
- }
-
-.sectionTwo {
-    background-color: #E5E7EB;
+.callToAction {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-left: 100px;
 }
 
-.sectionThree {
-    background-color: #fff;
-    height: 300px;
+.subTextAction {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 100px;
+  color: #e5e7eb;
+}
+
+#signUp {
+  background-color: #3882f6;
+  margin-left: 200px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: 3px solid #e5e7eb;
+  border-width: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 50px;
+  width: 120px;
+  height: 40px;
+  font-weight: 800;
+}
+
+#signUp:hover {
+  background-color: #4067a4;
 }
 
 .footer {
-    background-color: #1F2937;
-    height: 100px;
-} 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+/* <p>Copyright © Denis Michalski 2024</p>  */
+ul a:hover {
+  color: #4067a4;
+}
+
+.navbar {
+  background-color: #1f2937;
+}
+.header {
+  background-color: #1f2937;
+  max-height: 950px;
+}
+
+.sectionOne {
+  background-color: #fff;
+}
+
+.sectionTwo {
+  background-color: #e5e7eb;
+}
+
+.sectionThree {
+  background-color: #fff;
+  height: 300px;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 100px;
+}
